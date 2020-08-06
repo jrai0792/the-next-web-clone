@@ -1,9 +1,111 @@
 header {
-    background-color: aqua;
+  background-color: aqua;
+  height: 10vh;
 }
+
 main {
-    background-color: bisque;
+  background-color: bisque;
+  height: 70vh;
 }
+
 footer {
-    background-color: black;
+  background-color: black;
+  height: 20vh;
+}
+
+/* Common styles */
+
+.flex {
+  display: flex;
+}
+
+.float-right {
+  float: right;
+}
+
+.grid {
+  display: grid;
+}
+
+/* nav-bar section */
+
+.non-fixed {
+  background-color: blue;
+}
+
+.fixed {
+  background-color: blueviolet;
+}
+
+/* main section */
+
+/* Main Gallery section */
+
+.gallery {
+  margin: 30px 10px;
+  grid-template-columns: 70% 30%;
+  grid-auto-rows: 100px;
+  background-color: chartreuse;
+}
+
+.post1 {
+  background-color: chocolate;
+}
+
+.post2 {
+  background-color: coral;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.post2a {
+  background-color: crimson;
+}
+
+.post2b {
+  background-color: cyan;
+}
+
+/* size2 section */
+
+.size2 {
+  background-color: darkmagenta;
+  width: 90%;
+  margin: auto auto;
+}
+
+/* Latest News Section */
+
+.latest-news {
+  background-color: darkkhaki;
+  height: 300px;
+}
+
+.latest-articles {
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 20px;
+  height: 100px;
+  background-color: deeppink;
+}
+
+.latest1,
+.latest2 {
+  background-color: deepskyblue;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+
+.art1 {
+  background-color: dimgray;
+}
+
+.art2 {
+  background-color: forestgreen;
+}
+
+.art3 {
+  background-color: fuchsia;
+}
+
+.art4 {
+  background-color: greenyellow;
 }
