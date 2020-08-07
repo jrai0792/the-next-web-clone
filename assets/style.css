@@ -1,8 +1,13 @@
+body {
+  overflow-x: hidden;
+}
+
 header {
   background-color: aqua;
   height: 100px;
 }
 
+html,
 main {
   background-color: bisque;
   height: 2200px;
@@ -49,7 +54,7 @@ footer {
 }
 
 .post1 {
-  background-color: chocolate;
+  background-color: rgb(30, 144, 210);
 }
 
 .post2 {
@@ -227,4 +232,34 @@ footer {
 
 .d8 {
   background-color: grey;
+}
+
+@media screen and (max-width: 767px) {
+  .grid {
+    /*
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 100px; */
+    display: block;
+  }
+
+  /*
+  .latest-news {
+    height: max-content;
+  }
+
+  .latest-articles {
+    row-gap: 0;
+  }
+
+  .latest1,
+  .latest2 {
+    grid-template-columns: 100%;
+    row-gap: 5px;
+  } */
+  .funding-heading {
+    display: unset;
+  }
 }
