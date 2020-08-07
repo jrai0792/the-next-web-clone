@@ -7,7 +7,6 @@ header {
   height: 100px;
 }
 
-html,
 main {
   background-color: bisque;
   height: 2200px;
@@ -86,17 +85,12 @@ footer {
 }
 
 .latest-articles {
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
   row-gap: 20px;
   height: 100px;
   background-color: deeppink;
-}
-
-.latest1,
-.latest2 {
-  background-color: deepskyblue;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 20px;
 }
 
 .art1 {
@@ -236,30 +230,41 @@ footer {
 
 @media screen and (max-width: 767px) {
   .grid {
-    /*
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-
-    grid-template-columns: 100%;
-    grid-template-rows: 50px 100px; */
     display: block;
   }
 
-  /*
-  .latest-news {
-    height: max-content;
-  }
-
-  .latest-articles {
-    row-gap: 0;
-  }
-
-  .latest1,
-  .latest2 {
-    grid-template-columns: 100%;
-    row-gap: 5px;
-  } */
   .funding-heading {
     display: unset;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  main {
+    height: 3200px;
+  }
+
+  .latest-articles,
+  .deals {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .funding-articles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .latest-deals {
+    height: 800px;
+  }
+
+  .most-popular {
+    height: 1500px;
+  }
+
+  .mp {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
