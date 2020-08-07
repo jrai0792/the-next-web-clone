@@ -1,16 +1,16 @@
 header {
   background-color: aqua;
-  height: 10vh;
+  height: 100px;
 }
 
 main {
   background-color: bisque;
-  height: 70vh;
+  height: 2200px;
 }
 
 footer {
   background-color: black;
-  height: 20vh;
+  height: 300px;
 }
 
 /* Common styles */
@@ -108,4 +108,123 @@ footer {
 
 .art4 {
   background-color: greenyellow;
+}
+
+/* latest-funding */
+.latest-funding {
+  background-color: chocolate;
+  height: 300px;
+}
+
+.funding-articles {
+  background-color: green;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: 100px;
+}
+
+.f1 {
+  background-color: cornflowerblue;
+}
+
+.f2 {
+  background-color: silver;
+}
+
+.f3 {
+  background-color: red;
+}
+
+.f4 {
+  background-color: skyblue;
+}
+
+/* most-popular */
+.most-popular {
+  background-color: brown;
+  height: 900px;
+}
+
+.mp {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: 280px;
+}
+
+.mp1 {
+  background-color: greenyellow;
+}
+
+.mp2 {
+  background-color: greenyellow;
+}
+
+.mp3 {
+  background-color: greenyellow;
+}
+
+.mp4 {
+  background-color: greenyellow;
+}
+
+.mp5 {
+  background-color: greenyellow;
+}
+
+.mp6 {
+  background-color: greenyellow;
+}
+
+.mp7 {
+  background-color: greenyellow;
+}
+
+.mp8 {
+  background-color: greenyellow;
+}
+
+.mp9 {
+  background-color: greenyellow;
+}
+
+.latest-deals {
+  height: 500px;
+}
+
+.deals {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  grid-auto-rows: 200px;
+}
+
+.d1 {
+  background-color: grey;
+}
+
+.d2 {
+  background-color: grey;
+}
+
+.d3 {
+  background-color: grey;
+}
+
+.d4 {
+  background-color: grey;
+}
+
+.d5 {
+  background-color: grey;
+}
+
+.d6 {
+  background-color: grey;
+}
+
+.d7 {
+  background-color: grey;
+}
+
+.d8 {
+  background-color: grey;
 }
