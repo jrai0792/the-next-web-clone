@@ -9,7 +9,7 @@ header {
 }
 
 main {
-  background-color: bisque;
+  background-color: white;
   height: 2200px;
 }
 
@@ -232,7 +232,7 @@ footer {
 /* size2 section */
 
 .size2 {
-  background-color: darkmagenta;
+  background-color: white;
   width: 90%;
   margin: auto auto;
 }
@@ -240,33 +240,51 @@ footer {
 /* Latest News Section */
 
 .latest-news {
-  background-color: darkkhaki;
-  height: 300px;
+  margin-top: 100px;
+  height: 650px;
+}
+
+.latest-news h2 {
+  color: red;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.latest-news i {
+  margin-left: 5px;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .latest-articles {
   grid-template-columns: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 20px;
-  row-gap: 20px;
-  height: 100px;
-  background-color: deeppink;
+  grid-gap: 20px;
+  height: 400px;
 }
 
-.art1 {
-  background-color: dimgray;
+.latest-articles img {
+  width: 300px;
 }
 
-.art2 {
-  background-color: forestgreen;
+.latest-articles figure a {
+  text-decoration: none;
+  color: black;
 }
 
-.art3 {
-  background-color: fuchsia;
+.latest-articles figure p {
+  color: gray;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.art4 {
-  background-color: greenyellow;
+.latest-articles .fig {
+  width: 250px;
+  position: relative;
+  margin-left: 0;
+  font-size: 16px;
+  line-height: 15px;
+  font-weight: 700;
 }
 
 /* latest-funding */
