@@ -10,7 +10,7 @@ header {
 
 main {
   background-color: white;
-  height: 2200px;
+  height: 4600px;
 }
 
 footer {
@@ -241,7 +241,7 @@ footer {
 
 .size2 {
   background-color: white;
-  width: 90%;
+  width: 80%;
   margin: auto auto;
 }
 
@@ -265,14 +265,15 @@ footer {
 }
 
 .latest-articles {
+  width: 100%;
+  margin: 0 auto;
   grid-template-columns: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  height: 400px;
+  
 }
 
 .latest-articles img {
-  width: 300px;
+  width: 270px;
 }
 
 .latest-articles figure a {
@@ -408,26 +409,111 @@ footer {
 
 /* most-popular */
 .most-popular {
-  background-color: brown;
-  height: 2200px;
+  height: 2300px;
 }
 
 .mp {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  grid-auto-rows: 700px;
+  grid-auto-rows: 750px;
 }
 
-.mp1 {
-  background-color: greenyellow;
+.mp1 h3 a{
+  text-decoration: none;
+  font-size: 24px;
 
 }
 
-.mp1 img {
-  width: 420px;
-  height: 280px;
-  
+.mp-img {
+  height: 300px;
+  background-image: linear-gradient(to bottom, rgba(39, 39, 39, 0.233), rgba(15, 15, 15, 0.993)), url("./image/mp1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.heading-mp {
+  position: relative;
+  top: 180px;
+  margin-left: 20px;
+}
+
+.heading-mp .p1 {
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.heading-mp h4 {
+  margin-top: -7px;
+}
+
+.heading-mp h4 a {
+  font-size: 20px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.heading-mp .p2 {
+  margin-top: -19px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.heading-mp .p2 a {
+  text-decoration: none;
+}
+
+.mp1-latest {
+  height: 100px;
+  margin-top: 3px;
+  background-color: rgb(253,242,240);
+}
+
+.mp1-latest1 {
+  margin-left: 15px;
+  flex: 70%;
+}
+
+.mp1-latest2 {
+  flex: 30%;
+}
+
+
+.mp1-latest1 .latest {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #ff4422;
+}
+
+.mp1-latest1 p a {
+  position: relative;
+  top: -15px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ff4422;
+}
+
+.mp1-latest2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.mp1-links li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(209, 205, 205);
+    color: red;
+}
+
+.mp1-links li a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(98, 98, 98);
+}
+
 
 .mp2 {
   background-color: greenyellow;
