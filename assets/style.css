@@ -5,7 +5,7 @@ body {
 
 header {
   background-color: #fff;
-  height: 70px;
+  height: 10vh;
 }
 
 main {
@@ -672,6 +672,12 @@ footer {
   .grid {
     display: block;
   }
+  .non-fixed {
+    display: none;
+  }
+  .fixed ul {
+    display: none;
+  }
 
   .funding-heading {
     display: unset;
@@ -680,12 +686,20 @@ footer {
 
 @media screen and (max-width: 1023px) {
   main {
-    height: 3200px;
+    height: 2700px;
+  }
+  .gallery {
+    width: 98%;
+    margin: 30px 10px;
+    grid-template-columns: 70% 30%;
+    grid-auto-rows: 550px;
+    grid-gap: 10px;
   }
 
   .latest-articles,
   .deals {
     grid-template-columns: repeat(3, 1fr);
+
   }
 
   .hide {
@@ -697,7 +711,7 @@ footer {
   }
 
   .latest-deals {
-    height: 800px;
+    height: 1000px;
   }
 
   .most-popular {
