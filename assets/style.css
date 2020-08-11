@@ -110,15 +110,113 @@ footer {
   padding: 0 0.34vw;
 }
 
+.world a {
+  text-decoration: none;
+}
+
+.f1-details1 a,
+.f1-details2 a {
+  text-decoration: none;
+  font-size: 0.8125em;
+}
+
 .non-fixed1 li a,
 .non-fixed2 li a {
   font-size: 0.8125em;
   text-decoration: none;
   color: gray;
 }
+
 .fixed1 li {
   list-style: none;
   padding: 0 0.49vw;
+}
+
+.funding-heading h2 a {
+  text-decoration: none;
+}
+
+.mp1 h3 a {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.heading-mp h4 a {
+  font-size: 1.25em;
+  line-height: 2.8vh;
+  text-decoration: none;
+}
+
+.mp1-latest1 p a {
+  position: relative;
+  top: -1.9vh;
+  font-size: 0.875em;
+  line-height: 2.28vh;
+  font-weight: 700;
+  text-decoration: none;
+  color: #f42;
+}
+
+.mp1-links li a {
+  text-decoration: none;
+  font-size: 0.8125em;
+  line-height: 2.53vh;
+  color: rgb(98, 98, 98);
+}
+
+.ld h2 a {
+  text-decoration: none;
+}
+
+.ld p a {
+  text-decoration: none;
+  position: relative;
+  right: 0;
+  left: 10.07vw;
+  top: 1.9vh;
+  font-size: 1em;
+  line-height: 2.28vh;
+}
+
+.social-ul1 li a {
+  font-size: 1.25em;
+  margin: 0 0.69vw;
+  padding: 0.89vh 0.83vw;
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-color: rgba(66, 65, 65, 0.568);
+}
+
+.social-ul2 li a {
+  color: rgb(160, 155, 155);
+  text-decoration: none;
+  margin: 0 0.69vw;
+  font-size: 0.8125em;
+  line-height: 3.04vh;
+  text-transform: uppercase;
+}
+
+.fixed1 ul li a {
+  font-size: 0.875em;
+  text-decoration: none;
+}
+
+.funding-heading ul li a {
+  text-decoration: none;
+  padding-right: 0.48vw;
+}
+
+.p2-details .tech a {
+  text-decoration: none;
+}
+
+.latest-articles .fig a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading-mp .p2 a {
+  text-decoration: none;
 }
 
 .non-fixed1 li a:hover,
@@ -150,11 +248,6 @@ footer {
   border-left: 1px solid rgba(155, 153, 153, 0.863);
 }
 
-.fixed1 ul li a {
-  font-size: 0.875em;
-  text-decoration: none;
-}
-
 .fixed1 ul li a:hover,
 .fa-search:hover {
   color: #000;
@@ -174,6 +267,12 @@ footer {
 
 .post1 {
   background-image: linear-gradient(to bottom, rgba(241, 13, 13, 0.52), rgba(202, 90, 45, 0.73), rgba(41, 38, 38, 0.52), rgba(14, 13, 13, 0.52)), url("./image/galleryimg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.post2b {
+  background-image: linear-gradient(to bottom, rgba(29, 28, 28, 0.52), rgba(14, 13, 13, 0.73)), url("./image/galleryimg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -206,10 +305,6 @@ footer {
   font-size: 0.875em;
   line-height: 2.66vh;
   font-weight: 500;
-}
-
-.world a {
-  text-decoration: none;
 }
 
 .post1 .p1-details h1 {
@@ -255,10 +350,6 @@ footer {
   font-weight: 500;
 }
 
-.p2-details .tech a {
-  text-decoration: none;
-}
-
 .p2-details h2 {
   width: 90%;
   font-size: 1.375em;
@@ -271,12 +362,6 @@ footer {
   font-size: 0.75em;
   line-height: 2.03vh;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.post2b {
-  background-image: linear-gradient(to bottom, rgba(29, 28, 28, 0.52), rgba(14, 13, 13, 0.73)), url("./image/galleryimg1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* size2 section */
@@ -318,9 +403,13 @@ footer {
   height: 19.01vh;
 }
 
-.latest-articles .fig a {
-  text-decoration: none;
-  color: black;
+.ld p {
+  flex: 20%;
+}
+
+.footer1 p {
+  color: rgb(160, 155, 155);
+  font-size: 0.8125em;
 }
 
 .latest-articles .fig p {
@@ -354,24 +443,27 @@ footer {
   font-size: 1.75em;
 }
 
-.funding-heading h2 a {
-  text-decoration: none;
-}
-
 .funding-heading ul {
   flex: 40%;
   justify-content: flex-end;
   align-items: center;
 }
 
+.mp1-links li {
+  margin-bottom: 0.64vh;
+  padding-bottom: 0.64vh;
+  border-bottom: 1px solid rgb(209, 205, 205);
+  color: red;
+}
+
+.social-ul1 li,
+.social-ul2 li {
+  list-style: none;
+}
+
 .funding-heading ul li {
   list-style: none;
   margin: 0 0.35vw;
-}
-
-.funding-heading ul li a {
-  text-decoration: none;
-  padding-right: 0.48vw;
 }
 
 .line {
@@ -433,12 +525,6 @@ footer {
   margin-left: 1.4vw;
 }
 
-.f1-details1 a,
-.f1-details2 a {
-  text-decoration: none;
-  font-size: 0.8125em;
-}
-
 .fa-tag,
 .fa-briefcase {
   margin-right: 0.35vw;
@@ -458,11 +544,6 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.4vw;
   grid-auto-rows: 95.06vh;
-}
-
-.mp1 h3 a {
-  text-decoration: none;
-  font-size: 1.5em;
 }
 
 .mp-img {
@@ -487,20 +568,10 @@ footer {
   margin-top: -0.89vh;
 }
 
-.heading-mp h4 a {
-  font-size: 1.25em;
-  line-height: 2.8vh;
-  text-decoration: none;
-}
-
 .heading-mp .p2 {
   margin-top: -2.41vh;
   font-size: 0.75em;
   line-height: 2.03vh;
-}
-
-.heading-mp .p2 a {
-  text-decoration: none;
 }
 
 .mp1-latest {
@@ -525,33 +596,9 @@ footer {
   color: #f42;
 }
 
-.mp1-latest1 p a {
-  position: relative;
-  top: -1.9vh;
-  font-size: 0.875em;
-  line-height: 2.28vh;
-  font-weight: 700;
-  text-decoration: none;
-  color: #f42;
-}
-
 .mp1-latest2 img {
   height: 100%;
   width: 100%;
-}
-
-.mp1-links li {
-  margin-bottom: 0.64vh;
-  padding-bottom: 0.64vh;
-  border-bottom: 1px solid rgb(209, 205, 205);
-  color: red;
-}
-
-.mp1-links li a {
-  text-decoration: none;
-  font-size: 0.8125em;
-  line-height: 2.53vh;
-  color: rgb(98, 98, 98);
 }
 
 /* latest-deals section */
@@ -570,24 +617,6 @@ footer {
   flex: 80%;
   font-size: 1.75em;
   line-height: 4.05vh;
-}
-
-.ld h2 a {
-  text-decoration: none;
-}
-
-.ld p {
-  flex: 20%;
-}
-
-.ld p a {
-  text-decoration: none;
-  position: relative;
-  right: 0;
-  left: 10.07vw;
-  top: 1.9vh;
-  font-size: 1em;
-  line-height: 2.28vh;
 }
 
 .d1 img {
@@ -622,44 +651,16 @@ footer {
   top: 6.33vh;
 }
 
-.social-ul1 li,
-.social-ul2 li {
-  list-style: none;
-}
-
-.social-ul1 li a {
-  font-size: 1.25em;
-  margin: 0 0.69vw;
-  padding: 0.89vh 0.83vw;
-  border: 1px solid gray;
-  border-radius: 50%;
-  background-color: rgba(66, 65, 65, 0.568);
-}
-
 .social-ul2 {
   justify-content: center;
   position: relative;
   top: 10.14vh;
 }
 
-.social-ul2 li a {
-  color: rgb(160, 155, 155);
-  text-decoration: none;
-  margin: 0 0.69vw;
-  font-size: 0.8125em;
-  line-height: 3.04vh;
-  text-transform: uppercase;
-}
-
 .footer1 {
   width: 100%;
   text-align: center;
   margin-top: 5.07vh;
-}
-
-.footer1 p {
-  color: rgb(160, 155, 155);
-  font-size: 0.8125em;
 }
 
 .footer-icon1 {
@@ -680,23 +681,3 @@ footer {
   border-radius: 50%;
   background-color: rgb(44, 44, 241);
 }
-
-/* Media Queries */
-
-/*
-@media screen and(max-width: 767px) {
-  .grid {
-      display: block;
-  }
-  .non-fixed {
-      display: none;
-  }
-  .fixed ul {
-      display: none;
-  }
-
-  .funding-heading {
-      display: unset;
-  }
-}
-*/
