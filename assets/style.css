@@ -116,6 +116,10 @@ footer {
   text-decoration: none;
   color: gray;
 }
+.fixed1 li {
+  list-style: none;
+  padding: 0 0.49vw;
+}
 
 .non-fixed1 li a:hover,
 .non-fixed2 li a:hover {
@@ -144,11 +148,6 @@ footer {
   color: gray;
   padding-left: 2.08vw;
   border-left: 1px solid rgba(155, 153, 153, 0.863);
-}
-
-.fixed1 li {
-  list-style: none;
-  padding: 0 0.49vw;
 }
 
 .fixed1 ul li a {
