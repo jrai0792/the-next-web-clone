@@ -21,6 +21,8 @@ footer {
 
 /* Common styles */
 
+
+
 .flex {
   display: flex;
 }
@@ -63,6 +65,14 @@ footer {
 }
 
 /* nav-bar section */
+
+.nav-img {
+  display: none;
+}
+
+.fa-bars {
+  visibility: hidden;
+}
 
 .non-fixed {
   height: 3.8vh;
