@@ -1,0 +1,42 @@
+@media screen and (max-width: 1023px) {
+    .hide {
+        display: none;
+    }
+    main {
+        height: 342.2vh;
+    }
+    .fa-search{
+        display: none;
+    }
+
+    .gallery {
+        grid-auto-rows: 88.79vh;
+    }
+
+    .p1-details {
+        top: 38.02vh;
+    }
+
+    .latest-articles,
+    .deals {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .funding-articles {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .latest-deals {
+        height: 126.74vh;
+    }
+
+    .most-popular {
+        height: 190.11vh;
+    }
+
+    .mp {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}

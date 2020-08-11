@@ -5,17 +5,18 @@ body {
 
 header {
   background-color: #fff;
-  height: 10vh;
+  height: 6vh;
 }
 
 main {
   background-color: white;
-  height: 4800px;
+  margin-top: 7.6vh;
+  height: 608.8vh;
 }
 
 footer {
   background-color: black;
-  height: 300px;
+  height: 38vh;
 }
 
 /* Common styles */
@@ -64,7 +65,7 @@ footer {
 /* nav-bar section */
 
 .non-fixed {
-  height: 30px;
+  height: 3.8vh;
   align-items: center;
   background-color: #000;
 }
@@ -87,23 +88,23 @@ footer {
 
 .non-fixed2 li {
   position: relative;
-  left: 190px;
+  left: 13.2vw;
 }
 
 .non-fixed1 li {
   position: relative;
-  left: -30px;
+  left: -2.1vw;
 }
 
 .non-fixed1 li,
 .non-fixed2 li {
   list-style: none;
-  padding: 0 5px;
+  padding: 0 0.34vw;
 }
 
 .non-fixed1 li a,
 .non-fixed2 li a {
-  font-size: 13px;
+  font-size: 0.8125em;
   text-decoration: none;
   color: gray;
 }
@@ -115,35 +116,35 @@ footer {
 
 .fixed1 {
   width: 100%;
-  height: 40px;
-  border-bottom: 1px solid rgb(185, 181, 181);
+  height: 5.07vh;
+  border-bottom: 1px solid rgb(53, 51, 51);
   z-index: 2;
   background-color: #fff;
 }
 
 .fixed1 ul {
   position: relative;
-  left: -30px;
+  left: -2.08vw;
 }
 
 .fa-search {
   float: right;
   position: relative;
-  top: -40px;
-  right: 30px;
-  font-size: 25px;
+  top: -5.07vh;
+  right: 2.08vw;
+  font-size: 1.5625em;
   color: gray;
-  padding-left: 30px;
+  padding-left: 2.08vw;
   border-left: 1px solid rgba(155, 153, 153, 0.863);
 }
 
 .fixed1 li {
   list-style: none;
-  padding: 0 7px;
+  padding: 0 0.49vw;
 }
 
 .fixed1 ul li a {
-  font-size: 14px;
+  font-size: 0.875em;
   text-decoration: none;
 }
 
@@ -158,10 +159,10 @@ footer {
 
 .gallery {
   width: 98%;
-  margin: 30px 10px;
+  margin: 3.8vh 0.69vw;
   grid-template-columns: 70% 30%;
-  grid-auto-rows: 550px;
-  grid-gap: 10px;
+  grid-auto-rows: 69.7vh;
+  grid-gap: 0.69vw;
 }
 
 .post1 {
@@ -177,26 +178,26 @@ footer {
 
 .post1 .date {
   float: right;
-  margin-right: 20px;
+  margin-right: 1.4vw;
 }
 
 .post1 img {
-  width: 450px;
-  margin-top: 20px;
-  margin-left: 20px;
+  width: 31.25vw;
+  margin-top: 2.5vh;
+  margin-left: 1.38vw;
 }
 
 .post1 .p1-details {
   position: relative;
-  top: 200px;
-  left: 15px;
+  top: 25.34vh;
+  left: 1.04vw;
 }
 
 .post1 .p1-details .world {
   position: relative;
-  top: 30px;
-  font-size: 14px;
-  line-height: 21px;
+  top: 3.8vh;
+  font-size: 0.875em;
+  line-height: 2.66vh;
   font-weight: 500;
 }
 
@@ -206,21 +207,21 @@ footer {
 
 .post1 .p1-details h1 {
   width: 90%;
-  font-size: 46px;
-  line-height: 56px;
+  font-size: 2.875em;
+  line-height: 7.09vh;
 }
 
 .post1 .p1-author {
   position: relative;
-  top: -25px;
-  font-size: 12px;
-  line-height: 16px;
+  top: -3.16vh;
+  font-size: 0.75em;
+  line-height: 2.03vh;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .post2 {
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 10px;
+  grid-gap: 1.3vh;
 }
 
 .post2a {
@@ -235,15 +236,15 @@ footer {
 
 .p2-details {
   position: relative;
-  top: 120px;
-  left: 15px;
+  top: 15.2vh;
+  left: 1.04vw;
 }
 
 .p2-details .tech {
   position: relative;
-  top: 20px;
-  font-size: 14px;
-  line-height: 21px;
+  top: 2.5vh;
+  font-size: 0.875em;
+  line-height: 2.67vh;
   font-weight: 500;
 }
 
@@ -253,15 +254,15 @@ footer {
 
 .p2-details h2 {
   width: 90%;
-  font-size: 22px;
-  line-height: 31px;
+  font-size: 1.375em;
+  line-height: 3.9vh;
 }
 
 .p2-author {
   position: relative;
-  top: -15px;
-  font-size: 12px;
-  line-height: 16px;
+  top: -1.9vh;
+  font-size: 0.75em;
+  line-height: 2.03vh;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -282,19 +283,19 @@ footer {
 /* Latest News Section */
 
 .latest-news {
-  margin-top: 100px;
-  height: 650px;
+  margin-top: 12.67vh;
+  height: 82.38vh;
 }
 
 .latest-news h2 {
   color: red;
-  font-size: 25px;
+  font-size: 1.5625em;
   font-weight: 700;
 }
 
 .latest-news i {
-  margin-left: 5px;
-  font-size: 17px;
+  margin-left: 0.34vw;
+  font-size: 1.0625em;
   font-weight: 700;
 }
 
@@ -307,8 +308,8 @@ footer {
 }
 
 .latest-articles img {
-  width: 270px;
-  height: 150px;
+  width: 18.75vw;
+  height: 19.01vh;
 }
 
 .latest-articles figcaption a {
@@ -318,33 +319,33 @@ footer {
 
 .latest-articles figcaption p {
   color: gray;
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 500;
 }
 
 .latest-articles .fig {
-  width: 250px;
+  width: 17.36vw;
   position: relative;
   margin-left: 0;
-  font-size: 16px;
-  line-height: 15px;
+  font-size: 1em;
+  line-height: 1.9vh;
   font-weight: 700;
 }
 
 /* latest-funding */
 .latest-funding {
-  height: 450px;
+  height: 57.03vh;
 }
 
 .funding-articles {
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  grid-auto-rows: 300px;
+  grid-gap: 1.4vw;
+  grid-auto-rows: 38.02vh;
 }
 
 .funding-heading h2 {
   flex: 60%;
-  font-size: 28px;
+  font-size: 1.75em;
 }
 
 .funding-heading h2 a {
@@ -359,16 +360,16 @@ footer {
 
 .funding-heading ul li {
   list-style: none;
-  margin: 0 5px;
+  margin: 0 0.35vw;
 }
 
 .funding-heading ul li a {
   text-decoration: none;
-  padding-right: 7px;
+  padding-right: 0.48vw;
 }
 
 .line {
-  border-right: 2px solid red;
+  border-right: 0.14vw solid red;
 }
 
 .f1,
@@ -380,12 +381,12 @@ footer {
 
 .f1nav {
   background-color: red;
-  height: 40px;
+  height: 5.07vh;
 }
 
 .f1text {
   background-color: rgb(252,233,230);
-  height: 60px;
+  height: 7.6vh;
 }
 
 .f1nav h2,
@@ -393,48 +394,48 @@ footer {
 .f1text .title {
   margin-block-start: 0;
   margin-block-end: 0;
-  margin-left: 110px;
+  margin-left: 7.64vw;
 }
 
 .f1nav h2 {
   position: relative;
-  top: 9px;
-  font-size: 16px;
-  line-height: 18px;
+  top: 1.14vh;
+  font-size: 1em;
+  line-height: 2.28vh;
 }
 
 .f1text .amount {
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: 700;
-  padding-top: 7px;
+  padding-top: 0.89vh;
 }
 
 .f1text .title {
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75em;
+  line-height: 2.28;
   font-weight: 500;
 }
 
 .f1nav img {
-  height: 70px;
-  margin-left: 20px;
-  margin-top: -5px;
+  height: 8.87vh;
+  margin-left: 1.4vw;
+  margin-top: -0.64vh;
 }
 
 .f1-details1,
 .f1-details2 {
-  margin-left: 20px;
+  margin-left: 1.4vw;
 }
 
 .f1-details1 a,
 .f1-details2 a {
   text-decoration: none;
-  font-size: 13px;
+  font-size: 0.8125em;
 }
 
 .fa-tag,
 .fa-briefcase {
-  margin-right: 5px;
+  margin-right: 0.35vw;
 }
 
 .f1-details2 a span {
@@ -444,23 +445,23 @@ footer {
 
 /* most-popular */
 .most-popular {
-  height: 2300px;
+  height: 291.51vh;
 }
 
 .mp {
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  grid-auto-rows: 750px;
+  grid-gap: 1.4vw;
+  grid-auto-rows: 95.06vh;
 }
 
 .mp1 h3 a{
   text-decoration: none;
-  font-size: 24px;
+  font-size: 1.5em;
 
 }
 
 .mp-img {
-  height: 300px;
+  height: 38.02vh;
   background-image: linear-gradient(to bottom, rgba(39, 39, 39, 0.233), rgba(15, 15, 15, 0.993)), url("./image/mp1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -468,29 +469,29 @@ footer {
 
 .heading-mp {
   position: relative;
-  top: 180px;
-  margin-left: 20px;
+  top: 22.81vh;
+  margin-left: 1.4vw;
 }
 
 .heading-mp .p1 {
-  font-size: 12px;
-  line-height: 21px;
+  font-size: 0.75em;
+  line-height: 2.66vh;
 }
 
 .heading-mp h4 {
-  margin-top: -7px;
+  margin-top: -0.89vh;
 }
 
 .heading-mp h4 a {
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 1.25em;
+  line-height: 2.8vh;
   text-decoration: none;
 }
 
 .heading-mp .p2 {
-  margin-top: -19px;
-  font-size: 12px;
-  line-height: 16px;
+  margin-top: -2.41vh;
+  font-size: 0.75em;
+  line-height: 2.03vh;
 }
 
 .heading-mp .p2 a {
@@ -498,13 +499,13 @@ footer {
 }
 
 .mp1-latest {
-  height: 100px;
-  margin-top: 3px;
+  height: 12.67vh;
+  margin-top: 0.38vh;
   background-color: rgb(253,242,240);
 }
 
 .mp1-latest1 {
-  margin-left: 15px;
+  margin-left: 1.04vw;
   flex: 70%;
 }
 
@@ -514,17 +515,17 @@ footer {
 
 
 .mp1-latest1 .latest {
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 0.8125em;
+  line-height: 2.53vh;
   font-weight: 500;
   color: #ff4422;
 }
 
 .mp1-latest1 p a {
   position: relative;
-  top: -15px;
-  font-size: 14px;
-  line-height: 18px;
+  top: -1.9vh;
+  font-size: 0.875em;
+  line-height: 2.28vh;
   font-weight: 700;
   text-decoration: none;
   color: #ff4422;
@@ -536,34 +537,34 @@ footer {
 }
 
 .mp1-links li {
-    margin-bottom: 5px;
-    padding-bottom: 5px;
+    margin-bottom: 0.64vh;
+    padding-bottom: 0.64vh;
     border-bottom: 1px solid rgb(209, 205, 205);
     color: red;
 }
 
 .mp1-links li a {
   text-decoration: none;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 0.8125em;
+  line-height: 2.53vh;
   color: rgb(98, 98, 98);
 }
 /* latest-deals section */
 
 .latest-deals {
-  height: 500px;
+  height: 63.37vh;
 }
 
 .deals {
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
-  grid-auto-rows: 300px;
+  grid-gap: 1.39vw;
+  grid-auto-rows: 38.02vh;
 }
 
 .ld h2 {
   flex: 80%;
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 1.75em;
+  line-height: 4.05vh;
 }
 .ld h2 a {
   text-decoration: none;
@@ -575,24 +576,24 @@ footer {
   text-decoration: none;
   position: relative;
   right: 0;
-  left: 145px;
-  top: 15px;
-  font-size: 16px;
-  line-height: 18px;
+  left: 10.07vw;
+  top: 1.9vh;
+  font-size: 1em;
+  line-height: 2.28vh;
 }
 
 .d1 img {
   width: 100%;
 }
 .d1 .cap1 {
-  margin-top: -10px;
+  margin-top: -1.27vh;
 }
 .d1 .cap1 p {
-  margin-top: -10px;
+  margin-top: -1.27vh;
   color: #555;
 }
 .d1 .cap1 span {
-  font-size: 13px;
+  font-size: 0.8125em;
   color: #aaa;
   text-decoration: line-through;
 }
@@ -601,13 +602,13 @@ footer {
 
 .social-icons {
   background-color: rgb(19,19,19);
-  height: 200px;
+  height: 25.35vh;
 }
 
 .social-ul1 {
   justify-content: center;
   position: relative;
-  top: 50px;
+  top: 6.33vh;
 }
 
 .social-ul1 li,
@@ -616,9 +617,9 @@ footer {
 }
 
 .social-ul1 li a {
-  font-size: 20px;
-  margin: 0 10px;
-  padding: 7px 12px;
+  font-size: 1.25em;
+  margin: 0 0.69vw;
+  padding: 0.89vh 0.83vw;
   border: 1px solid gray;
   border-radius: 50%;
   background-color: rgba(66, 65, 65, 0.568);
@@ -626,99 +627,64 @@ footer {
 .social-ul2 {
   justify-content: center;
   position: relative;
-  top: 80px;
+  top: 10.14vh;
 }
 
 .social-ul2 li a{
   color: rgb(160, 155, 155);
   text-decoration: none;
-  margin: 0 10px;
-  font-size: 13px;
-  line-height: 24px;
+  margin: 0 0.69vw;
+  font-size: 0.8125em;
+  line-height: 3.04vh;
   text-transform: uppercase;
 }
 
 .footer1 {
   width: 100%;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 5.07vh;
 }
 
 .footer1 p {
   color: rgb(160, 155, 155);
-  font-size: 13px;
+  font-size: 0.8125em;
 }
 
 .footer-icon1 {
-  width: 40px;
+  width: 2.78vw;
 }
 
 .footer-icon2 {
-  width: 70px;
+  width: 4.86vw;
 }
 
 .fixed-icon {
   font-size: 30px;
   position: fixed;
-  right: 30px;
-  bottom: 30px;
-  padding: 7px 10px;
+  right: 2.08vw;
+  bottom: 3.8vh;
+  padding: 0.89vh 0.69vw;
   border: 1px solid rgb(60, 60, 238);
   border-radius: 50%;
   background-color: rgb(44, 44, 241);
 }
 
-@media screen and (max-width: 767px) {
+/* Media Queries */
+
+/*
+@media screen and(max-width: 767px) {
   .grid {
-    display: block;
+      display: block;
   }
   .non-fixed {
-    display: none;
+      display: none;
   }
   .fixed ul {
-    display: none;
+      display: none;
   }
 
   .funding-heading {
-    display: unset;
+      display: unset;
   }
 }
-
-@media screen and (max-width: 1023px) {
-  main {
-    height: 2700px;
-  }
-  .gallery {
-    width: 98%;
-    margin: 30px 10px;
-    grid-template-columns: 70% 30%;
-    grid-auto-rows: 550px;
-    grid-gap: 10px;
-  }
-
-  .latest-articles,
-  .deals {
-    grid-template-columns: repeat(3, 1fr);
-
-  }
-
-  .hide {
-    display: none;
-  }
-
-  .funding-articles {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .latest-deals {
-    height: 1000px;
-  }
-
-  .most-popular {
-    height: 1500px;
-  }
-
-  .mp {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+*/

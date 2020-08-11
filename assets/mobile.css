@@ -1,0 +1,125 @@
+@media screen and (max-width: 767px) {
+    main {
+        height: 6000px;
+        background-color: seagreen;
+      }
+
+      .hide {
+        display: none;
+    }
+    
+    .grid {
+        display: block;
+    }
+
+    .non-fixed {
+        display: none;
+    }
+
+    .fixed ul {
+        display: none;
+    }
+
+    .gallery {
+        height: 430px;
+    }
+    .post1,
+    .post2a,
+    .post2b {
+        height: 27.01vh;
+    }
+
+    .post1 .p1-details {
+        position: relative;
+        top: 15px;
+        left: 1.04vw;
+      }
+
+    .post1 .p1-details h1 {
+        font-size: 1.5em;
+        line-height: 7.09vh;
+      }
+
+    .p2-details {
+        position: relative;
+        top: 5px;
+        left: 1.04vw;
+    }
+
+    .size2 {
+        background-color: white;
+        width: 95%;
+        margin: auto auto;
+      }
+
+    /* latest News */
+    .latest-news {
+        margin-top: 9.67vh;
+        height: 174.38vh;
+      }
+
+      .latest-articles img {
+        width: 10.75vw;
+        height: 18.01vh;
+      }
+
+      .art1, 
+      .art2, 
+      .art3, 
+      .art4, 
+      .art5, 
+      .art6,
+      .art7,
+      .art8 {
+        display: flex;
+        margin-bottom: 10px;
+      }
+
+      .art1 .fig,
+      .art2 .fig,
+      .art3 .fig,
+      .art4 .fig,
+      .art5 .fig,
+      .art6 .fig,
+      .art7 .fig,
+      .art8 .fig  {
+          flex: 1;
+          margin-left: 10px;
+          margin-top: 10px;
+      }
+
+      .latest-articles figcaption a {
+          font-size: 14px;
+      }
+
+      .latest-articles figcaption p {
+          font-size: 12px;
+          padding-top: 5px;
+      }
+
+      /* latest funding*/
+      
+      .latest-funding {
+        height: 180.03vh;
+      }
+
+    .funding-heading,
+    .funding-heading ul {
+        display: unset;
+        padding-inline-start: 0;
+        margin-block-start: 0;
+    margin-block-end: 0;
+    }
+
+    .line {
+        border-right: 0;
+    }
+
+    .funding-heading ul li {
+        margin: 10px 0;
+    }
+
+    .f1text {
+        height: 10.6vh;
+      }
+}

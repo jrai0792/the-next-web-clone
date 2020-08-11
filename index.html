@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The next web clone</title>
-    <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/normalise.css">
-    <link rel="stylesheet" href="assets/media.css">
+    <link rel="stylesheet" href="assets/style.css">
     <script src="https://kit.fontawesome.com/d86848cfe0.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/mobile.css" media="screen and (max-width: 767px)">
+        
 </head>
 
 <body>
@@ -25,7 +26,7 @@
                     <li><a href="#">Spaces</a></li>
                     <li><a href="#">Terms&Conditions</a></li>
                 </ul>
-                <ul class="non-fixed2 flex">
+                <ul class="non-fixed2 flex hide">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Advertise</a></li>
                     <li><a href="#">Jobs</a></li>
@@ -48,10 +49,10 @@
 
     </header>
     <main>
-        <section class="gallery grid">
+        <section class="grid gallery">
             <article class="post1">
-                <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="logo">
-                <p class="date white-text">Friday - 7th August, 2020</p>
+                <img class="hide" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="logo">
+                <p class="date white-text hide">Friday - 7th August, 2020</p>
                 <div class="p1-details white-text">
                     <p class="world"><a href="#" class="white-text">WORLD</a></p>
                     <h1>This startup is fighting air pollution with AI</h1>
@@ -87,7 +88,8 @@
             <section class="latest-news">
                 <h2 class="hover-black">Latest News<i class="fas fa-chevron-right hover-black"></i></h2>
                 <div class="grid latest-articles">
-                    <article class="art1"><img src="assets/image/twitter-icon.png" alt="twitter-icon">
+                    <article class="art1">
+                        <img src="assets/image/twitter-icon.png" alt="twitter-icon">
                         <figcaption class="fig"><a href="#" class="hover-red">Streamline your social media presence with HelloWoofy's
                                 AI-powered platform</a>
                             <p>TNW Deals . 11 hours ago</p>
