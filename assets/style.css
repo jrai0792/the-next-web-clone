@@ -21,8 +21,6 @@ footer {
 
 /* Common styles */
 
-
-
 .flex {
   display: flex;
 }
@@ -56,8 +54,8 @@ footer {
 }
 
 .hover-red:hover {
-  color:#ff4422;
-  text-decoration: underline #ff4422;
+  color: #f42;
+  text-decoration: underline #f42;
 }
 
 .black-bg:hover {
@@ -314,7 +312,6 @@ footer {
   margin: 0 auto;
   grid-template-columns: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
-  
 }
 
 .latest-articles img {
@@ -322,12 +319,12 @@ footer {
   height: 19.01vh;
 }
 
-.latest-articles figcaption a {
+.latest-articles .fig a {
   text-decoration: none;
   color: black;
 }
 
-.latest-articles figcaption p {
+.latest-articles .fig p {
   color: gray;
   font-size: 0.875em;
   font-weight: 500;
@@ -386,7 +383,7 @@ footer {
 .f2,
 .f3,
 .f4 {
-  background-color: rgb(254,248,247);
+  background-color: rgb(254, 248, 247);
 }
 
 .f1nav {
@@ -395,7 +392,7 @@ footer {
 }
 
 .f1text {
-  background-color: rgb(252,233,230);
+  background-color: rgb(252, 233, 230);
   height: 7.6vh;
 }
 
@@ -464,10 +461,9 @@ footer {
   grid-auto-rows: 95.06vh;
 }
 
-.mp1 h3 a{
+.mp1 h3 a {
   text-decoration: none;
   font-size: 1.5em;
-
 }
 
 .mp-img {
@@ -511,7 +507,7 @@ footer {
 .mp1-latest {
   height: 12.67vh;
   margin-top: 0.38vh;
-  background-color: rgb(253,242,240);
+  background-color: rgb(253, 242, 240);
 }
 
 .mp1-latest1 {
@@ -523,12 +519,11 @@ footer {
   flex: 30%;
 }
 
-
 .mp1-latest1 .latest {
   font-size: 0.8125em;
   line-height: 2.53vh;
   font-weight: 500;
-  color: #ff4422;
+  color: #f42;
 }
 
 .mp1-latest1 p a {
@@ -538,7 +533,7 @@ footer {
   line-height: 2.28vh;
   font-weight: 700;
   text-decoration: none;
-  color: #ff4422;
+  color: #f42;
 }
 
 .mp1-latest2 img {
@@ -547,10 +542,10 @@ footer {
 }
 
 .mp1-links li {
-    margin-bottom: 0.64vh;
-    padding-bottom: 0.64vh;
-    border-bottom: 1px solid rgb(209, 205, 205);
-    color: red;
+  margin-bottom: 0.64vh;
+  padding-bottom: 0.64vh;
+  border-bottom: 1px solid rgb(209, 205, 205);
+  color: red;
 }
 
 .mp1-links li a {
@@ -559,6 +554,7 @@ footer {
   line-height: 2.53vh;
   color: rgb(98, 98, 98);
 }
+
 /* latest-deals section */
 
 .latest-deals {
@@ -576,12 +572,15 @@ footer {
   font-size: 1.75em;
   line-height: 4.05vh;
 }
+
 .ld h2 a {
   text-decoration: none;
 }
+
 .ld p {
-  flex:20%;
+  flex: 20%;
 }
+
 .ld p a {
   text-decoration: none;
   position: relative;
@@ -595,13 +594,16 @@ footer {
 .d1 img {
   width: 100%;
 }
+
 .d1 .cap1 {
   margin-top: -1.27vh;
 }
+
 .d1 .cap1 p {
   margin-top: -1.27vh;
   color: #555;
 }
+
 .d1 .cap1 span {
   font-size: 0.8125em;
   color: #aaa;
@@ -611,7 +613,7 @@ footer {
 /* footer */
 
 .social-icons {
-  background-color: rgb(19,19,19);
+  background-color: rgb(19, 19, 19);
   height: 25.35vh;
 }
 
@@ -634,13 +636,14 @@ footer {
   border-radius: 50%;
   background-color: rgba(66, 65, 65, 0.568);
 }
+
 .social-ul2 {
   justify-content: center;
   position: relative;
   top: 10.14vh;
 }
 
-.social-ul2 li a{
+.social-ul2 li a {
   color: rgb(160, 155, 155);
   text-decoration: none;
   margin: 0 0.69vw;
