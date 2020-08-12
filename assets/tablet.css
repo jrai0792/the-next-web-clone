@@ -4,7 +4,7 @@
   }
 
   main {
-    height: 1330.2vh;
+    height: 590.2vh;
   }
 
   /* nav-bar */
@@ -16,18 +16,22 @@
   .fixed1 ul {
     display: flex;
     position: relative;
-    left: -2.08vw;
+    left: -4.08vw;
+    top: -20px;
   }
 
   .non-fixed {
-    height: 7.8vh;
+    width: 85%;
+    float: right;
+    height: 3.8vh;
     align-items: center;
     background-color: #000;
   }
 
   .fixed1 {
+    display: flex;
     width: 100%;
-    height: 11.07vh;
+    height: 4.07vh;
     border-bottom: 1px solid rgb(53, 51, 51);
     z-index: 2;
     background-color: #fff;
@@ -43,46 +47,68 @@
     display: none;
   }
 
+  .nav-img {
+    background-size: cover;
+    position: relative;
+    top: -50px;
+    width: 90px;
+    background-color: red;
+    height: 32px;
+    display: inline;
+    padding: 30px 20px;
+  }
+
   /* Gallery Section */
 
   .gallery {
     width: 98%;
-    margin: 9.8vh 0.69vw;
-    grid-auto-rows: 70.79vh;
+    margin: -3.8vh 0.69vw;
+    grid-template-columns: 70% 30%;
+    grid-auto-rows: 29.7vh;
     grid-gap: 0.69vw;
-    margin-top: 65px;
+  }
+
+  .post2 {
+    grid-gap: 0.5vh;
   }
 
   .post1 .p1-details {
     position: relative;
-    top: 35.34vh;
+    top: 9.34vh;
     left: 1.04vw;
   }
 
   .post1 .p1-details h1 {
     width: 90%;
-    font-size: 2.5em;
-    line-height: 7.09vh;
+    font-size: 2em;
+    line-height: 4.09vh;
+    padding: 15px 0;
   }
 
   .p2-details {
     position: relative;
-    top: 9.2vh;
+    top: 1.8vh;
     left: 1.04vw;
+  }
+
+  .post2a,
+  .post2b {
+    height: 14.5vh;
   }
 
   .p2-details .tech {
     position: relative;
     top: 2.5vh;
-    font-size: 0.65em;
+    font-size: 0.5em;
     line-height: 2.67vh;
     font-weight: 500;
   }
 
   .p2-details h2 {
     width: 90%;
-    font-size: 1em;
-    line-height: 3.9vh;
+    font-size: 0.8em;
+    line-height: 1.9vh;
+    padding: 7px 0;
   }
 
   /* latest articles */
@@ -94,8 +120,8 @@
   }
 
   .latest-news {
-    margin-top: 12.67vh;
-    height: 145.38vh;
+    margin-top: 5.67vh;
+    height: 65.38vh;
   }
 
   .latest-articles {
@@ -104,7 +130,8 @@
 
   .latest-articles img {
     width: 100%;
-    height: 25.01vh;
+    height: 12.01vh;
+    background-size: cover;
   }
 
   .latest-articles .fig {
@@ -112,8 +139,20 @@
     position: relative;
     margin-left: 0;
     font-size: 0.75em;
-    line-height: 4vh;
+    line-height: 2vh;
     font-weight: 700;
+  }
+
+  .ld p {
+    flex: 25%;
+  }
+
+  .footer1 p {
+    margin-top: 45px;
+  }
+
+  .latest-articles .fig p {
+    margin-top: -3px;
   }
 
   .latest-articles,
@@ -124,10 +163,18 @@
   /* funding articles section */
   .funding-articles {
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 28.02vh;
+  }
+
+  .f1nav img {
+    height: 6.87vh;
+    width: 60px;
+    margin-left: 1.4vw;
+    margin-top: -0.64vh;
   }
 
   .latest-funding {
-    height: 94.03vh;
+    height: 54.03vh;
   }
 
   .funding-heading,
@@ -147,26 +194,35 @@
   }
 
   .f1text {
-    height: 10.6vh;
+    height: 7.6vh;
   }
+
+  .f1nav h2,
+  .f1text .amount,
+  .f1text .title {
+    margin-left: 90px;
+  }
+
+
 
   /* most popular */
 
   .most-popular {
-    height: 791.51vh;
+    height: 360.51vh;
+    margin-top: -90px;
   }
 
   .mp {
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 150.06vh;
+    grid-auto-rows: 70.06vh;
   }
 
   .mp-img {
-    height: 60.02vh;
+    height: 25.02vh;
   }
 
   .heading-mp {
-    top: 40.81vh;
+    top: 12.81vh;
   }
 
   .heading-mp h4 a {
@@ -176,23 +232,26 @@
   }
 
   .mp1-latest {
-    height: 20.67vh;
+    height: 10.67vh;
     margin-top: 0.38vh;
-    background-color: rgb(56, 33, 29);
+    background-color: rgb(252, 233, 230);
+  }
+
+  .mp1-links li a {
+    text-decoration: none;
+    font-size: 0.8em;
+    line-height: 2vh;
+    color: rgb(98, 98, 98);
   }
 
   /* latest deals */
 
   .latest-deals {
-    height: 200.37vh;
-  }
-
-  .ld p {
-    flex: 25%;
+    height: 80.37vh;
   }
 
   .deals {
-    grid-auto-rows: 52.02vh;
+    grid-auto-rows: 20.02vh;
     grid-gap: 20px;
   }
 
@@ -207,22 +266,23 @@
   /* footer section */
 
   footer {
-    height: 58vh;
+    height: 28vh;
   }
 
   .social-icons {
-    height: 35.35vh;
-  }
-
-  .social-ul1 {
-    top: 11.33vh;
+    height: 15.35vh;
   }
 
   .social-ul2 {
-    top: 15.14vh;
+    justify-content: center;
+    position: relative;
+    top: 7.14vh;
   }
 
   .footer1 {
-    margin-top: 9.07vh;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    margin-top: -5px;
   }
 }

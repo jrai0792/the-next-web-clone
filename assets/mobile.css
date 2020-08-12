@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px) {
   main {
-    height: 2177.42vh;
+    height: 1570.42vh;
+    overflow-x: hidden;
   }
 
   .hide {
@@ -34,7 +35,7 @@
     float: right;
     position: relative;
     top: 3.07vh;
-    right: 8.08vw;
+    right: 15.08vw;
     font-size: 1.5625em;
     color: gray;
     padding-left: 1.08vw;
@@ -55,13 +56,13 @@
   .nav-img {
     width: 100px;
     background-color: red;
-    height: 43px;
+    height: 42px;
     display: inline;
   }
 
   /* gallery section */
   .gallery {
-    height: 430px;
+    height: 500px;
   }
 
   .post1,
@@ -72,19 +73,25 @@
 
   .post1 .p1-details {
     position: relative;
-    top: 15px;
+    top: 60px;
     left: 1.04vw;
   }
 
   .post1 .p1-details h1 {
-    font-size: 1.5em;
-    line-height: 7.09vh;
+    font-size: 0.9em;
+    line-height: 5.09vh;
   }
 
   .p2-details {
     position: relative;
-    top: 5px;
+    top: 50px;
     left: 1.04vw;
+  }
+
+  .p2-details h2 {
+    width: 90%;
+    font-size: 0.9em;
+    line-height: 2.9vh;
   }
 
   .size2 {
@@ -96,12 +103,13 @@
   /* latest News */
   .latest-news {
     margin-top: 9.67vh;
-    height: 174.38vh;
+    height: 120.38vh;
   }
 
   .latest-articles img {
-    width: 10.75vw;
-    height: 18.01vh;
+    width: 20.75vw;
+    height: 12.01vh;
+    background-size: cover;
   }
 
   .art1,
@@ -126,24 +134,37 @@
   .art8 .fig {
     flex: 1;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .d1 a {
-    flex: 1;
+    flex: 2;
   }
 
   .ld p a {
-    position: relative;
-    right: 0;
-    left: 10.07vw;
-    top: 3vh;
+    margin-left: -30px;
     font-size: 0.85em;
     line-height: 2.28vh;
   }
 
+  .heading-mp h4 a {
+    font-size: 1em;
+    line-height: 2.8vh;
+    text-decoration: none;
+  }
+
+  .social-ul1 li a {
+    font-size: 1.15em;
+    margin: 0 0.69vw;
+    padding: 0.9vh 1vw;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: rgba(66, 65, 65, 0.568);
+  }
+
   .latest-articles .fig a {
-    font-size: 14px;
+    font-size: 10px;
+    line-height: 16px;
   }
 
   .cap1 h3,
@@ -152,14 +173,14 @@
   }
 
   .latest-articles .fig p {
-    font-size: 12px;
+    font-size: 8px;
     padding-top: 5px;
   }
 
   /* latest funding */
 
   .latest-funding {
-    height: 180.03vh;
+    height: 150.03vh;
   }
 
   .funding-heading,
@@ -174,6 +195,10 @@
     border-right: 0;
   }
 
+  .social-ul1 li {
+    width: 100%;
+  }
+
   .funding-heading ul li {
     margin: 10px 0;
   }
@@ -182,19 +207,28 @@
     height: 10.6vh;
   }
 
+  .f1nav h2,
+  .f1text .amount,
+  .f1text .title {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 20.64vw;
+  }
+
   /* most popular */
 
   .most-popular {
-    height: 1500.51vh;
+    height: 1170.51vh;
   }
 
   .mp-img {
-    height: 98.02vh;
+    height: 60.02vh;
+    background-size: cover;
   }
 
   .heading-mp {
     position: relative;
-    top: 75.81vh;
+    top: 40.81vh;
     margin-left: 1.4vw;
   }
 
@@ -210,15 +244,14 @@
 
   .mp1-latest2 img {
     height: 100%;
-    width: 60%;
+    width: 100%;
     position: relative;
-    left: 85px;
   }
 
   /* Latest Deals */
 
   .latest-deals {
-    height: 200.37vh;
+    height: 140.37vh;
   }
 
   .ld h2 {
@@ -234,8 +267,8 @@
   }
 
   .d1 img {
-    width: 80%;
-    height: 90px;
+    width: 85%;
+    height: 70px;
   }
 
   .cap1 {
@@ -249,7 +282,7 @@
   /* footer */
 
   footer {
-    height: 58vh;
+    height: 28vh;
   }
 
   .social-icons {
@@ -260,6 +293,8 @@
     justify-content: center;
     position: relative;
     top: 10.33vh;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .social-ul2 {
@@ -269,8 +304,6 @@
   }
 
   .footer1 {
-    width: 29%;
-    margin: auto;
-    margin-top: 30px;
+    display: none;
   }
 }
