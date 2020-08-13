@@ -4,12 +4,10 @@ body {
 }
 
 header {
-  background-color: #fff;
   height: 6vh;
 }
 
 main {
-  background-color: white;
   margin-top: 7.6vh;
   height: 608.8vh;
 }
@@ -96,7 +94,7 @@ footer {
 
 .non-fixed2 li {
   position: relative;
-  left: 13.2vw;
+  left: 10.2vw;
 }
 
 .non-fixed1 li {
@@ -106,7 +104,6 @@ footer {
 
 .non-fixed1 li,
 .non-fixed2 li {
-  list-style: none;
   padding: 0 0.34vw;
 }
 
@@ -128,7 +125,6 @@ footer {
 }
 
 .fixed1 li {
-  list-style: none;
   padding: 0 0.49vw;
 }
 
@@ -226,10 +222,9 @@ footer {
 
 .fixed1 {
   width: 100%;
-  height: 5.07vh;
+  height: 3.07vh;
   border-bottom: 1px solid rgb(53, 51, 51);
   z-index: 2;
-  background-color: #fff;
 }
 
 .fixed1 ul {
@@ -242,9 +237,11 @@ footer {
   position: relative;
   top: -5.07vh;
   right: 2.08vw;
-  font-size: 1.5625em;
+  font-size: 1em;
   color: gray;
   padding-left: 2.08vw;
+  padding-top: 10px;
+  padding-bottom: 15px;
   border-left: 1px solid rgba(155, 153, 153, 0.863);
 }
 
@@ -338,7 +335,7 @@ footer {
 
 .p2-details {
   position: relative;
-  top: 15.2vh;
+  top: 12.2vh;
   left: 1.04vw;
 }
 
@@ -367,9 +364,8 @@ footer {
 /* size2 section */
 
 .size2 {
-  background-color: white;
-  width: 80%;
-  margin: auto auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /* Latest News Section */
@@ -396,10 +392,11 @@ footer {
   margin: 0 auto;
   grid-template-columns: repeat(2, 1fr);
   grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
 }
 
 .latest-articles img {
-  width: 18.75vw;
+  width: 21vw;
   height: 19.01vh;
 }
 
@@ -457,12 +454,15 @@ footer {
 }
 
 .social-ul1 li,
-.social-ul2 li {
+.social-ul2 li,
+.non-fixed1 li,
+.non-fixed2 li,
+.fixed1 li,
+.funding-heading ul li {
   list-style: none;
 }
 
 .funding-heading ul li {
-  list-style: none;
   margin: 0 0.35vw;
 }
 
@@ -492,7 +492,7 @@ footer {
 .f1text .title {
   margin-block-start: 0;
   margin-block-end: 0;
-  margin-left: 7.64vw;
+  margin-left: 9.64vw;
 }
 
 .f1nav h2 {
