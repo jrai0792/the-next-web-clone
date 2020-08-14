@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
   main {
-    height: 1570.42vh;
+    height: 12390px;
     overflow-x: hidden;
   }
 
@@ -25,7 +25,7 @@
 
   .fixed1 {
     width: 100%;
-    height: 9.07vh;
+    height: 72px;
     border-bottom: 1px solid rgb(53, 51, 51);
     z-index: 2;
     background-color: #fff;
@@ -35,7 +35,7 @@
   .fa-search {
     float: right;
     position: relative;
-    top: 3.07vh;
+    top: 24px;
     right: 15.08vw;
     font-size: 1.5625em;
     color: gray;
@@ -49,7 +49,7 @@
     visibility: visible;
     float: right;
     position: relative;
-    top: 3.07vh;
+    top: 24px;
     font-size: 24px;
     left: 10px;
   }
@@ -63,13 +63,13 @@
 
   /* gallery section */
   .gallery {
-    height: 500px;
+    height: 600px;
   }
 
   .post1,
   .post2a,
   .post2b {
-    height: 27.01vh;
+    height: 213px;
   }
 
   .post1 .p1-details {
@@ -80,7 +80,7 @@
 
   .post1 .p1-details h1 {
     font-size: 0.9em;
-    line-height: 5.09vh;
+    line-height: 40px;
   }
 
   .p2-details {
@@ -92,7 +92,7 @@
   .p2-details h2 {
     width: 90%;
     font-size: 0.9em;
-    line-height: 2.9vh;
+    line-height: 23px;
   }
 
   .size2 {
@@ -103,13 +103,13 @@
 
   /* latest News */
   .latest-news {
-    margin-top: 9.67vh;
-    height: 120.38vh;
+    margin-top: 76px;
+    height: 900px;
   }
 
   .latest-articles img {
     width: 20.75vw;
-    height: 12.01vh;
+    height: 95px;
     background-size: cover;
   }
 
@@ -145,19 +145,19 @@
   .ld p a {
     margin-left: -30px;
     font-size: 0.85em;
-    line-height: 2.28vh;
+    line-height: 18px;
   }
 
   .heading-mp h4 a {
     font-size: 1em;
-    line-height: 2.8vh;
+    line-height: 18px;
     text-decoration: none;
   }
 
   .social-ul1 li a {
     font-size: 1.15em;
     margin: 0 0.69vw;
-    padding: 0.9vh 1vw;
+    padding: 7px 1vw;
     border: 1px solid gray;
     border-radius: 50%;
     background-color: rgba(66, 65, 65, 0.568);
@@ -181,7 +181,7 @@
   /* latest funding */
 
   .latest-funding {
-    height: 150.03vh;
+    height: 1084px;
   }
 
   .funding-heading,
@@ -205,7 +205,7 @@
   }
 
   .f1text {
-    height: 10.6vh;
+    height: 80px;
   }
 
   .f1nav h2,
@@ -213,23 +213,23 @@
   .f1text .title {
     margin-block-start: 0;
     margin-block-end: 0;
-    margin-left: 20.64vw;
+    margin-left: 24.64vw;
   }
 
   /* most popular */
 
   .most-popular {
-    height: 1170.51vh;
+    height: 8900.3239px;
   }
 
   .mp-img {
-    height: 60.02vh;
+    height: 474px;
     background-size: cover;
   }
 
   .heading-mp {
     position: relative;
-    top: 40.81vh;
+    top: 322px;
     margin-left: 1.4vw;
   }
 
@@ -238,8 +238,8 @@
   }
 
   .mp1-latest {
-    height: 20.67vh;
-    margin-top: 0.38vh;
+    height: 163px;
+    margin-top: 3px;
     background-color: rgb(253, 242, 240);
   }
 
@@ -252,13 +252,13 @@
   /* Latest Deals */
 
   .latest-deals {
-    height: 140.37vh;
+    height: 1007.5px;
   }
 
   .ld h2 {
     flex: 70%;
     font-size: 1.65em;
-    line-height: 4.05vh;
+    line-height: 32px;
   }
 
   .d1 {
@@ -283,17 +283,17 @@
   /* footer */
 
   footer {
-    height: 28vh;
+    height: 221px;
   }
 
   .social-icons {
-    height: 35.35vh;
+    height: 279px;
   }
 
   .social-ul1 {
     justify-content: center;
     position: relative;
-    top: 10.33vh;
+    top: 82px;
     width: 80%;
     margin: 0 auto;
   }
@@ -301,7 +301,7 @@
   .social-ul2 {
     justify-content: center;
     position: relative;
-    top: 13.14vh;
+    top: 104px;
   }
 
   .footer1 {

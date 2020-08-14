@@ -4,7 +4,7 @@
   }
 
   main {
-    height: 590.2vh;
+    height: 4656.6px;
   }
 
   /* nav-bar */
@@ -23,7 +23,7 @@
   .non-fixed {
     width: 85%;
     float: right;
-    height: 3.8vh;
+    height: 30px;
     align-items: center;
     background-color: #000;
   }
@@ -31,7 +31,7 @@
   .fixed1 {
     display: flex;
     width: 100%;
-    height: 4.07vh;
+    height: 32px;
     border-bottom: 1px solid rgb(53, 51, 51);
     z-index: 2;
     background-color: #fff;
@@ -62,52 +62,52 @@
 
   .gallery {
     width: 98%;
-    margin: -3.8vh 0.69vw;
+    margin: -30px 0.69vw;
     grid-template-columns: 70% 30%;
-    grid-auto-rows: 29.7vh;
+    grid-auto-rows: 234px;
     grid-gap: 0.69vw;
   }
 
   .post2 {
-    grid-gap: 0.5vh;
+    grid-gap: 4px;
   }
 
   .post1 .p1-details {
     position: relative;
-    top: 9.34vh;
+    top: 74px;
     left: 1.04vw;
   }
 
   .post1 .p1-details h1 {
     width: 90%;
     font-size: 2em;
-    line-height: 4.09vh;
+    line-height: 32px;
     padding: 15px 0;
   }
 
   .p2-details {
     position: relative;
-    top: 1.8vh;
+    top: 14px;
     left: 1.04vw;
   }
 
   .post2a,
   .post2b {
-    height: 14.5vh;
+    height: 114px;
   }
 
   .p2-details .tech {
     position: relative;
-    top: 2.5vh;
+    top: 20px;
     font-size: 0.5em;
-    line-height: 2.67vh;
+    line-height: 21px;
     font-weight: 500;
   }
 
   .p2-details h2 {
     width: 90%;
     font-size: 0.8em;
-    line-height: 1.9vh;
+    line-height: 15px;
     padding: 7px 0;
   }
 
@@ -120,8 +120,8 @@
   }
 
   .latest-news {
-    margin-top: 5.67vh;
-    height: 65.38vh;
+    margin-top: 45px;
+    height: 516px;
   }
 
   .latest-articles {
@@ -130,7 +130,7 @@
 
   .latest-articles img {
     width: 100%;
-    height: 12.01vh;
+    height: 95px;
     background-size: cover;
   }
 
@@ -139,7 +139,7 @@
     position: relative;
     margin-left: 0;
     font-size: 0.75em;
-    line-height: 2vh;
+    line-height: 16px;
     font-weight: 700;
   }
 
@@ -163,18 +163,18 @@
   /* funding articles section */
   .funding-articles {
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 28.02vh;
+    grid-auto-rows: 221px;
   }
 
   .f1nav img {
-    height: 6.87vh;
+    height: 54px;
     width: 60px;
     margin-left: 1.4vw;
-    margin-top: -0.64vh;
+    margin-top: -5px;
   }
 
   .latest-funding {
-    height: 54.03vh;
+    height: 426px;
   }
 
   .funding-heading,
@@ -194,7 +194,7 @@
   }
 
   .f1text {
-    height: 7.6vh;
+    height: 60px;
   }
 
   .f1nav h2,
@@ -206,50 +206,50 @@
   /* most popular */
 
   .most-popular {
-    height: 360.51vh;
+    height: 2844.4px;
     margin-top: -90px;
   }
 
   .mp {
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 70.06vh;
+    grid-auto-rows: 553px;
   }
 
   .mp-img {
-    height: 25.02vh;
+    height: 198px;
   }
 
   .heading-mp {
-    top: 12.81vh;
+    top: 101px;
   }
 
   .heading-mp h4 a {
     font-size: 1em;
-    line-height: 2.8vh;
+    line-height: 22px;
     text-decoration: none;
   }
 
   .mp1-latest {
-    height: 10.67vh;
-    margin-top: 0.38vh;
+    height: 84px;
+    margin-top: 3px;
     background-color: rgb(252, 233, 230);
   }
 
   .mp1-links li a {
     text-decoration: none;
     font-size: 0.8em;
-    line-height: 2vh;
+    line-height: 16px;
     color: rgb(98, 98, 98);
   }
 
   /* latest deals */
 
   .latest-deals {
-    height: 80.37vh;
+    height: 634px;
   }
 
   .deals {
-    grid-auto-rows: 20.02vh;
+    grid-auto-rows: 158px;
     grid-gap: 20px;
   }
 
@@ -264,21 +264,21 @@
   /* footer section */
 
   footer {
-    height: 28vh;
+    height: 221px;
   }
 
   .social-icons {
-    height: 15.35vh;
+    height: 121px;
   }
 
   .social-ul2 {
     justify-content: center;
     position: relative;
-    top: 7.14vh;
+    top: 56px;
   }
 
   .footer1 {
-    height: 10vh;
+    height: 79px;
     width: 100%;
     text-align: center;
     margin-top: -5px;

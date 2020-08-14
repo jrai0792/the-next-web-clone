@@ -4,17 +4,17 @@ body {
 }
 
 header {
-  height: 6vh;
+  height: 21.84px;
 }
 
 main {
-  margin-top: 7.6vh;
-  height: 608.8vh;
+  margin-top: 28px;
+  height: 5000px;
 }
 
 footer {
   background-color: black;
-  height: 38vh;
+  height: 300px;
 }
 
 /* Common styles */
@@ -71,7 +71,7 @@ footer {
 }
 
 .non-fixed {
-  height: 5.8vh;
+  height: 46px;
   align-items: center;
   background-color: #000;
 }
@@ -139,15 +139,15 @@ footer {
 
 .heading-mp h4 a {
   font-size: 1.25em;
-  line-height: 2.8vh;
+  line-height: 22px;
   text-decoration: none;
 }
 
 .mp1-latest1 p a {
   position: relative;
-  top: -1.9vh;
+  top: -15px;
   font-size: 0.875em;
-  line-height: 2.28vh;
+  line-height: 18px;
   font-weight: 700;
   text-decoration: none;
   color: #f42;
@@ -156,7 +156,7 @@ footer {
 .mp1-links li a {
   text-decoration: none;
   font-size: 0.8125em;
-  line-height: 2.53vh;
+  line-height: 20px;
   color: rgb(98, 98, 98);
 }
 
@@ -169,15 +169,15 @@ footer {
   position: relative;
   right: 0;
   left: 10.07vw;
-  top: 1.9vh;
+  top: 15px;
   font-size: 1em;
-  line-height: 2.28vh;
+  line-height: 18px;
 }
 
 .social-ul1 li a {
   font-size: 1.25em;
   margin: 0 0.69vw;
-  padding: 0.89vh 0.83vw;
+  padding: 7px 0.83vw;
   border: 1px solid gray;
   border-radius: 50%;
   background-color: rgba(66, 65, 65, 0.568);
@@ -188,7 +188,7 @@ footer {
   text-decoration: none;
   margin: 0 0.69vw;
   font-size: 0.8125em;
-  line-height: 3.04vh;
+  line-height: 24px;
   text-transform: uppercase;
 }
 
@@ -222,7 +222,7 @@ footer {
 
 .fixed1 {
   width: 100%;
-  height: 4.07vh;
+  height: 33px;
   border-bottom: 1px solid rgb(53, 51, 51);
   z-index: 2;
 }
@@ -236,7 +236,7 @@ footer {
 .fa-search {
   float: right;
   position: relative;
-  top: -4.07vh;
+  top: -32px;
   right: 2.08vw;
   font-size: 1em;
   color: gray;
@@ -255,9 +255,9 @@ footer {
 
 .gallery {
   width: 98%;
-  margin: 3.8vh 0.69vw;
+  margin: 30px 0.69vw;
   grid-template-columns: 70% 30%;
-  grid-auto-rows: 69.7vh;
+  grid-auto-rows: 550px;
   grid-gap: 0.69vw;
 }
 
@@ -285,41 +285,41 @@ footer {
 
 .post1 img {
   width: 31.25vw;
-  margin-top: 2.5vh;
+  margin-top: 20px;
   margin-left: 1.38vw;
 }
 
 .post1 .p1-details {
   position: relative;
-  top: 15.34vh;
+  top: 121px;
   left: 1.04vw;
 }
 
 .post1 .p1-details .world {
   position: relative;
-  top: 3.8vh;
+  top: 30px;
   font-size: 0.875em;
-  line-height: 2.66vh;
+  line-height: 21px;
   font-weight: 500;
 }
 
 .post1 .p1-details h1 {
   width: 90%;
   font-size: 2.875em;
-  line-height: 7.09vh;
+  line-height: 56px;
 }
 
 .post1 .p1-author {
   position: relative;
-  top: -3.16vh;
+  top: -25px;
   font-size: 0.75em;
-  line-height: 2.03vh;
+  line-height: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .post2 {
   grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1.3vh;
+  grid-gap: 10px;
 }
 
 .post2a {
@@ -334,29 +334,29 @@ footer {
 
 .p2-details {
   position: relative;
-  top: 8.2vh;
+  top: 65px;
   left: 1.04vw;
 }
 
 .p2-details .tech {
   position: relative;
-  top: 2.5vh;
+  top: 20px;
   font-size: 0.875em;
-  line-height: 2.67vh;
+  line-height: 21px;
   font-weight: 500;
 }
 
 .p2-details h2 {
   width: 90%;
   font-size: 1.375em;
-  line-height: 3.9vh;
+  line-height: 30px;
 }
 
 .p2-author {
   position: relative;
-  top: -1.9vh;
+  top: -15px;
   font-size: 0.75em;
-  line-height: 2.03vh;
+  line-height: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -370,8 +370,8 @@ footer {
 /* Latest News Section */
 
 .latest-news {
-  margin-top: 12.67vh;
-  height: 82.38vh;
+  margin-top: 100px;
+  height: 650px;
 }
 
 .latest-news h2 {
@@ -396,7 +396,7 @@ footer {
 
 .latest-articles img {
   width: 21vw;
-  height: 19.01vh;
+  height: 150px;
 }
 
 .ld p {
@@ -419,19 +419,19 @@ footer {
   position: relative;
   margin-left: 0;
   font-size: 1em;
-  line-height: 1.9vh;
+  line-height: 15px;
   font-weight: 700;
 }
 
 /* latest-funding */
 .latest-funding {
-  height: 57.03vh;
+  height: 450px;
 }
 
 .funding-articles {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.4vw;
-  grid-auto-rows: 38.02vh;
+  grid-auto-rows: 300px;
 }
 
 .funding-heading h2 {
@@ -446,8 +446,8 @@ footer {
 }
 
 .mp1-links li {
-  margin-bottom: 0.64vh;
-  padding-bottom: 0.64vh;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
   border-bottom: 1px solid rgb(209, 205, 205);
   color: red;
 }
@@ -478,12 +478,12 @@ footer {
 
 .f1nav {
   background-color: red;
-  height: 5.07vh;
+  height: 40px;
 }
 
 .f1text {
   background-color: rgb(252, 233, 230);
-  height: 7.6vh;
+  height: 60px;
 }
 
 .f1nav h2,
@@ -496,27 +496,27 @@ footer {
 
 .f1nav h2 {
   position: relative;
-  top: 1.14vh;
+  top: 9px;
   font-size: 1em;
-  line-height: 2.28vh;
+  line-height: 18px;
 }
 
 .f1text .amount {
   font-size: 1.125em;
   font-weight: 700;
-  padding-top: 0.89vh;
+  padding-top: 7px;
 }
 
 .f1text .title {
   font-size: 0.75em;
-  line-height: 2.28;
+  line-height: 18px;
   font-weight: 500;
 }
 
 .f1nav img {
-  height: 8.87vh;
+  height: 70px;
   margin-left: 1.4vw;
-  margin-top: -0.64vh;
+  margin-top: -5px;
 }
 
 .f1-details1,
@@ -535,17 +535,17 @@ footer {
 
 /* most-popular */
 .most-popular {
-  height: 291.51vh;
+  height: 2300px;
 }
 
 .mp {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.4vw;
-  grid-auto-rows: 95.06vh;
+  grid-auto-rows: 750px;
 }
 
 .mp-img {
-  height: 38.02vh;
+  height: 300px;
   background-image: linear-gradient(to bottom, rgba(39, 39, 39, 0.233), rgba(15, 15, 15, 0.993)), url("./image/mp1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -553,28 +553,28 @@ footer {
 
 .heading-mp {
   position: relative;
-  top: 22.81vh;
+  top: 180px;
   margin-left: 1.4vw;
 }
 
 .heading-mp .p1 {
   font-size: 0.75em;
-  line-height: 2.66vh;
+  line-height: 21px;
 }
 
 .heading-mp h4 {
-  margin-top: -0.89vh;
+  margin-top: -7px;
 }
 
 .heading-mp .p2 {
-  margin-top: -2.41vh;
+  margin-top: -19px;
   font-size: 0.75em;
-  line-height: 2.03vh;
+  line-height: 16px;
 }
 
 .mp1-latest {
-  height: 12.67vh;
-  margin-top: 0.38vh;
+  height: 100px;
+  margin-top: 3px;
   background-color: rgb(253, 242, 240);
 }
 
@@ -589,7 +589,7 @@ footer {
 
 .mp1-latest1 .latest {
   font-size: 0.8125em;
-  line-height: 2.53vh;
+  line-height: 20px;
   font-weight: 500;
   color: #f42;
 }
@@ -602,19 +602,19 @@ footer {
 /* latest-deals section */
 
 .latest-deals {
-  height: 63.37vh;
+  height: 500px;
 }
 
 .deals {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.39vw;
-  grid-auto-rows: 38.02vh;
+  grid-auto-rows: 300px;
 }
 
 .ld h2 {
   flex: 80%;
   font-size: 1.75em;
-  line-height: 4.05vh;
+  line-height: 32px;
 }
 
 .d1 img {
@@ -622,11 +622,11 @@ footer {
 }
 
 .d1 .cap1 {
-  margin-top: -1.27vh;
+  margin-top: -10px;
 }
 
 .d1 .cap1 p {
-  margin-top: -1.27vh;
+  margin-top: -10px;
   color: #555;
 }
 
@@ -640,25 +640,25 @@ footer {
 
 .social-icons {
   background-color: rgb(19, 19, 19);
-  height: 25.35vh;
+  height: 200px;
 }
 
 .social-ul1 {
   justify-content: center;
   position: relative;
-  top: 6.33vh;
+  top: 50px;
 }
 
 .social-ul2 {
   justify-content: center;
   position: relative;
-  top: 10.14vh;
+  top: 80px;
 }
 
 .footer1 {
   width: 100%;
   text-align: center;
-  margin-top: 5.07vh;
+  margin-top: 40px;
 }
 
 .footer-icon1 {
@@ -673,8 +673,8 @@ footer {
   font-size: 30px;
   position: fixed;
   right: 2.08vw;
-  bottom: 3.8vh;
-  padding: 0.89vh 0.69vw;
+  bottom: 30px;
+  padding: 7px 0.69vw;
   border: 1px solid rgb(60, 60, 238);
   border-radius: 50%;
   background-color: rgb(44, 44, 241);
