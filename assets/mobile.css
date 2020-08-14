@@ -18,7 +18,8 @@
     display: none;
   }
 
-  .fixed ul {
+  .fixed ul,
+  .fixed1 ul {
     display: none;
   }
 
@@ -56,7 +57,7 @@
   .nav-img {
     width: 100px;
     background-color: red;
-    height: 42px;
+    height: 58px;
     display: inline;
   }
 
