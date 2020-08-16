@@ -188,6 +188,7 @@ footer {
 
 .yellow-nav p a {
   font-size: 12px;
+  margin-left: 15px;
 }
 
 .fixed1 ul li a {
@@ -252,6 +253,8 @@ footer {
   padding: 1px 1px;
   width: 100%;
 }
+
+
 
 /* main section */
 
