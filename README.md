@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jrai0792/the-next-web-clone/feature-branch/index.html)
+[Live Demo Link](https://jrai0792.github.io/the-next-web-clone/)
 
 
 ## Authors
