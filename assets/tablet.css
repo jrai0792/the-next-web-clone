@@ -3,6 +3,10 @@
     display: none;
   }
 
+  main {
+    margin-top: 140px;
+  }
+
   /* nav-bar */
 
   .nav-bar {

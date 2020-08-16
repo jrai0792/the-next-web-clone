@@ -1,6 +1,7 @@
 @media screen and (max-width: 767px) {
   main {
     overflow-x: hidden;
+    margin-top: 90px;
   }
 
   .hide {
@@ -69,6 +70,7 @@
   .yellow-nav {
     position: relative;
     top: 50px;
+    width: 100vw;
   }
 
   /* gallery section */
