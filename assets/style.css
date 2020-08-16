@@ -3,18 +3,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-header {
-  height: 21.84px;
-}
-
 main {
   margin-top: 28px;
-  height: 5000px;
 }
 
 footer {
   background-color: black;
-  height: 300px;
 }
 
 /* Common styles */
@@ -192,6 +186,10 @@ footer {
   text-transform: uppercase;
 }
 
+.yellow-nav p a {
+  font-size: 12px;
+}
+
 .fixed1 ul li a {
   font-size: 0.875em;
   text-decoration: none;
@@ -247,6 +245,11 @@ footer {
 .fixed1 ul li a:hover,
 .fa-search:hover {
   color: #000;
+}
+
+.yellow-nav {
+  background-color: yellow;
+  padding: 1px 0;
 }
 
 /* main section */
@@ -371,7 +374,6 @@ footer {
 
 .latest-news {
   margin-top: 100px;
-  height: 650px;
 }
 
 .latest-news h2 {
@@ -424,9 +426,6 @@ footer {
 }
 
 /* latest-funding */
-.latest-funding {
-  height: 450px;
-}
 
 .funding-articles {
   grid-template-columns: repeat(4, 1fr);
@@ -534,9 +533,6 @@ footer {
 }
 
 /* most-popular */
-.most-popular {
-  height: 2300px;
-}
 
 .mp {
   grid-template-columns: repeat(3, 1fr);
@@ -602,7 +598,7 @@ footer {
 /* latest-deals section */
 
 .latest-deals {
-  height: 500px;
+  margin-bottom: 50px;
 }
 
 .deals {
@@ -659,6 +655,7 @@ footer {
   width: 100%;
   text-align: center;
   margin-top: 40px;
+  padding-bottom: 15px;
 }
 
 .footer-icon1 {

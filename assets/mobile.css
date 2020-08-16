@@ -1,6 +1,5 @@
 @media screen and (max-width: 767px) {
   main {
-    height: 12390px;
     overflow-x: hidden;
   }
 
@@ -23,9 +22,15 @@
     display: none;
   }
 
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+  }
+
   .fixed1 {
     width: 100%;
-    height: 72px;
+    height: 60px;
     border-bottom: 1px solid rgb(53, 51, 51);
     z-index: 2;
     background-color: #fff;
@@ -61,10 +66,12 @@
     display: inline;
   }
 
-  /* gallery section */
-  .gallery {
-    height: 600px;
+  .yellow-nav {
+    position: relative;
+    top: 50px;
   }
+
+  /* gallery section */
 
   .post1,
   .post2a,
@@ -74,7 +81,7 @@
 
   .post1 .p1-details {
     position: relative;
-    top: 60px;
+    top: 110px;
     left: 1.04vw;
   }
 
@@ -85,7 +92,7 @@
 
   .p2-details {
     position: relative;
-    top: 50px;
+    top: 100px;
     left: 1.04vw;
   }
 
@@ -104,7 +111,6 @@
   /* latest News */
   .latest-news {
     margin-top: 76px;
-    height: 900px;
   }
 
   .latest-articles img {
@@ -180,10 +186,6 @@
 
   /* latest funding */
 
-  .latest-funding {
-    height: 1084px;
-  }
-
   .funding-heading,
   .funding-heading ul {
     display: unset;
@@ -218,10 +220,6 @@
 
   /* most popular */
 
-  .most-popular {
-    height: 8900.3239px;
-  }
-
   .mp-img {
     height: 474px;
     background-size: cover;
@@ -251,10 +249,6 @@
 
   /* Latest Deals */
 
-  .latest-deals {
-    height: 1007.5px;
-  }
-
   .ld h2 {
     flex: 70%;
     font-size: 1.65em;
@@ -282,14 +276,6 @@
 
   /* footer */
 
-  footer {
-    height: 221px;
-  }
-
-  .social-icons {
-    height: 279px;
-  }
-
   .social-ul1 {
     justify-content: center;
     position: relative;
@@ -302,9 +288,5 @@
     justify-content: center;
     position: relative;
     top: 104px;
-  }
-
-  .footer1 {
-    display: none;
   }
 }
